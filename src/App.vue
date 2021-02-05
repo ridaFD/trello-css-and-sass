@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      helloss
-    </div>
     <router-view />
   </div>
 </template>
@@ -24,6 +21,8 @@
   --gray-dark-1: #333;
   --gray-dark-2: #777;
   --gray-dark-3: #999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
 }
 
 * {
